@@ -128,6 +128,11 @@ portfolio:
       url: 'https://github.com/Felipecordeiiro/ONS_ANALYSIS'
       description: 'Time-series forecasting study over ONS reservoir flow data, comparing LSTM, XGBoost, ARIMA, SARIMA, and Prophet with exploratory analysis, performance metrics, and model interpretation.'
 
+
+    - name: Formula-E Cone Detection
+      image: 'images/portfolio/formula_e.jpg'
+      url: 'https://github.com/Felipecordeiiro/Formula-E'
+      description: 'Computer vision project for autonomous racing scenarios, using YOLO-based cone detection to support Formula Student style perception tasks and track understanding in high-speed environments.'
     - name: 'Optimizing of the 3D model of VANT using GANs from sustainable materials using AM'
       image: 'images/portfolio/drone.png'
       url: 'docs/GANs_VANT.pdf'
