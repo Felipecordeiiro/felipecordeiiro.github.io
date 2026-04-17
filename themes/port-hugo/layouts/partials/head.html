@@ -53,7 +53,11 @@
       content="{{ .Site.Params.special_favicon.theme_color }}"
     />
     {{ else }}
-    <link rel="icon" type="image/png" href="{{ .Site.Params.favicon }}" />
+    {{ $favicon_svg := printf "%s?v=2" ("images/favicon.svg" | absURL) }}
+    {{ $favicon_png := printf "%s?v=2" (.Site.Params.favicon | absURL) }}
+    <link rel="icon" type="image/svg+xml" href="{{ $favicon_svg }}" />
+    <link rel="icon" type="image/png" href="{{ $favicon_png }}" />
+    <link rel="shortcut icon" href="{{ $favicon_png }}" />
   {{ end }}
   {{ with .Site.Params.google_analytics }}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
