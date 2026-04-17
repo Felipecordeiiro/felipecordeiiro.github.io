@@ -17,7 +17,7 @@ hero:
 ########################### About ##################################
 about:
   enable: true
-  image: 'images/new_profile.jpg'
+  image: 'images/new_profile.jpeg'
   title: 'About Me'
   content: 'Felipe Cordeiro is a 5th-semester computer engineering student in University Federal of Ceará - UFC. He is currently a researcher scientist in solutions based on Small Language Models and use of Ensemble Agents in Biomedical Context
   in Biomedical Data Analytics Research Group from Computer Systems Engineering Laboratory (LESC). Also, he is Data Scientist in AI4WELLNESS project in collaboration with Samsung by Insight Data Science Lab, in addition, is responsible for the data and software informations
@@ -44,7 +44,7 @@ experience:
     - name: Insight Data Science Lab
       company: Data Scientist & DevOps
       duration: '2024-Current'
-      content: 'Creation, Interpretation and Modeling of Machine/Deep Learning models. Using DevOps and MLOps concept such as kubernets e MLflow for creating complexs fluxograms'
+      content: 'Creation, Interpretation and Modeling of Machine/Deep Learning models. Using MLOps concepts such as Docker and Kubernetes for orchestration of services such as Airflow for creating Complex workflows and MLflow for storage models and data'
 
     - name: LPTS - Laboratory of Research and Tecnology in Welding  
       company: Software Team Lider and Robotics Engineering
@@ -108,12 +108,37 @@ portfolio:
   enable: true
   title: 'MY WORKS'
   portfolio_list:
+    - name: Mobit Challenge - Computer Vision Pipeline
+      image: 'images/portfolio/mobit_challenge.jpg'
+      url: 'https://github.com/Felipecordeiiro/mobit_challenge'
+      description: 'Computer vision challenge combining classical image processing, YOLOv8-based people counting, and car-type classification. The project includes preprocessing pipelines, model comparison, class-imbalance handling, and evaluation artifacts.'
+
+    - name: Ford ML Engineer Challenge
+      image: 'images/portfolio/challenge_ford_ml_engineer.png'
+      url: 'https://github.com/Felipecordeiiro/challenge_ford_ml_engineer'
+      description: 'End-to-end machine learning pipeline for automotive complaint analysis, covering data acquisition, text preprocessing, feature engineering, model training, metrics tracking, and statistical reporting.'
+
+    - name: Ford Backend Challenge
+      image: 'images/portfolio/challenge_ford_back_dev.png'
+      url: 'https://github.com/Felipecordeiiro/challenge_ford_back_dev'
+      description: 'Production-oriented backend built with FastAPI and PostgreSQL, featuring authentication, analytics routes, Dockerized infrastructure, automated tests, and interactive API documentation with Swagger.'
+
+    - name: ONS Flow Forecasting Analysis
+      image: 'images/portfolio/ons_analysis.png'
+      url: 'https://github.com/Felipecordeiiro/ONS_ANALYSIS'
+      description: 'Time-series forecasting study over ONS reservoir flow data, comparing LSTM, XGBoost, ARIMA, SARIMA, and Prophet with exploratory analysis, performance metrics, and model interpretation.'
+
     - name: 'Optimizing of the 3D model of VANT using GANs from sustainable materials using AM'
       image: 'images/portfolio/drone.png'
       url: 'docs/GANs_VANT.pdf'
       description: 'Optimization of tridimensional model VANTs from Generative Adversarial Networks as of sustainable materials using 
       additive manufacturing using Fusion 360 software (license student). Paper submeted in University Meetings 2023 congress by 
       University Federal of Ceará.'
+
+    - name: 'Controlling a robotic arm using voice recognition'
+      image: 'images/portfolio/braco.jpeg'
+      url: #
+      description: Proposal for a voice-controlled robotic arm using open-source speech-to-text models with Gaussian filters for noise reduction.
 
     - name: AI Medical Plataform
       image: 'images/portfolio/interface.png'
