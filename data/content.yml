@@ -17,7 +17,7 @@ hero:
 ########################### About ##################################
 about:
   enable: true
-  image: 'images/new_profile.jpeg'
+  image: 'images/new_profile.jpg'
   title: 'About Me'
   content: 'Felipe Cordeiro is a 5th-semester computer engineering student in University Federal of Ceará - UFC. He is currently a researcher scientist in solutions based on Small Language Models and use of Ensemble Agents in Biomedical Context
   in Biomedical Data Analytics Research Group from Computer Systems Engineering Laboratory (LESC). Also, he is Data Scientist in AI4WELLNESS project in collaboration with Samsung by Insight Data Science Lab, in addition, is responsible for the data and software informations
@@ -147,5 +147,5 @@ portfolio:
 
     - name: AI Medical Plataform
       image: 'images/portfolio/interface.png'
-      url: #
+      url: 'https://felipecordeiiro.github.io/Biomedical-Research---BioData/'
       description: AI plataform that helps doctors with daily tasks.
