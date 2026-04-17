@@ -148,11 +148,15 @@
   });
 
   function toggleLogoImg(id) {
-    var img = document.getElementById(id).src;
-    if (img.indexOf('flogo-dark.svg') != -1) {
-      document.getElementById(id).src = '/images/flogo-white.png';
+    var logo = document.getElementById(id);
+    var img = logo.src;
+    var lightLogo = logo.dataset.logoLight;
+    var darkLogo = logo.dataset.logoDark;
+
+    if (img.indexOf(darkLogo) != -1) {
+      logo.src = lightLogo;
     } else {
-      document.getElementById(id).src = '/images/flogo-dark.svg';
+      logo.src = darkLogo;
     }
   }
 
