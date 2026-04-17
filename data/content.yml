@@ -1,0 +1,121 @@
+########################## hero area ##########################
+hero:
+  title: "Hey! I'm Felipe Cordeiro"
+
+  # animated text loop
+  occupations:
+    - 'Researcher Cientist'
+    - 'Machine Learning Engineer'
+    - 'Computer Vision Engineer'
+    - 'Data Scientist'
+
+  # hero background image
+  bg_image: 'images/background.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/background2.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/new_profile.jpg'
+  title: 'About Me'
+  content: 'Felipe Cordeiro is a 5th-semester computer engineering student in University Federal of Ceará - UFC. He is currently a researcher scientist in solutions based on Small Language Models and use of Ensemble Agents in Biomedical Context
+  in Biomedical Data Analytics Research Group from Computer Systems Engineering Laboratory (LESC). Also, he is Data Scientist in AI4WELLNESS project in collaboration with Samsung by Insight Data Science Lab, in addition, is responsible for the data and software informations
+  in Welding Research and Technology Laboratory (LPTS) and act such as Robotics Engineering. Mainly experience in research fields: Processing Digital Images, Pattern Recognition, Intelligent Systems and Computer Vision applied Driverless and Cars.
+
+  Hello! Thank you for taking a look around my portfolio website. If you have any questions feel free to reach out on [Github, LinkedIn or by Email](#contact)!'
+  button:
+    enable: true
+    label: 'CURRICULUM VITAE'
+    link: 'docs/Curriculum_vitae_en.pdf'
+    icon: 'fa-download'
+
+########################### Experience ##############################
+experience:
+  enable: true
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: BioData - Biomedical Data Analytics
+      company: Researcher Cientist
+      duration: '2023-Current'
+      content: 'Creating a plataform that receives TC or RM images and performs a series of pre-processings on them so that they can later be used for the segmentation, detection, classification tasks and cloud chosen by the medical users.
+      Implementation of deep learning/machine learning advanced algorithms and tecniques to make manual and monotous jobs easier.'
+
+    - name: Insight Data Science Lab
+      company: Data Scientist & DevOps
+      duration: '2024-Current'
+      content: 'Creation, Interpretation and Modeling of Machine/Deep Learning models. Using DevOps and MLOps concept such as kubernets e MLflow for creating complexs fluxograms'
+
+    - name: LPTS - Laboratory of Research and Tecnology in Welding  
+      company: Software Team Lider and Robotics Engineering
+      duration: '2023-Current'
+      content: 'Responsible for lead the team for creating CRM plataform web with stock items using Angular with two backends - Node.js and PHP. Integration between JMATPro 13.3 and Python using API Restful. Creation of computer vision algorithms for segment degenerative areas on metal pieces. Integration of the Kuka robot with an automated algorithm that performs segmentation and projects the coordinates of the segmented region, converting them into the robot’s Cartesian coordinates.'
+
+    - name: NUVEN
+      company: ML/DL Researcher
+      duration: '2023-2024'
+      content: 'Use robust tecniques of Processing Digital Images, such as: Erode, Dilate, Gaussian Filter and Non-Gaussian Filters, Canny Algorithm. I was responsible for developing models for detection tasks using Deep Neural Networks and YOLOv8'
+
+    - name: GPAR - Group of Research in Automation and Robotics
+      company: Computer Vision Researcher
+      duration: '2022-2023'
+      content: 'Research in filed of autonomous and eletric driverless car, embbeded systems and control. Creating of algortihms in python for real time detection tasks using JETSON NANO, looking for the best combination between accuracy and speed. Fusing sensor
+      of the sensor LiDAR and Stereo Cameras using MATLAB and ROS.'
+############################### Skill #################################
+skill:
+  enable: true
+  title: 'SOME SKILLS'
+  showpercent: false
+  skill_list:
+
+    - name: 'Python'
+      percentage: '80%'
+    
+    - name: 'C++'
+      percentage: '40%'
+    
+    - name: 'MATLAB'
+      percentage: '30%'
+
+    - name: 'Processing Digital Images'
+      percentage: 70%
+
+    - name: 'Processing Digital Signal'
+      percentage: '45%'
+
+    - name: 'DevOps/MLOps/DevSecOps'
+      percentage: '40%'
+
+
+######################### funfacts #############################3
+funfacts:
+  enable: true
+  funfacts_list:
+    - name: 'CUPS PER DAY'
+      image: 'images/icons/coffee.png'
+      count: '3'
+
+    - name: 'ML/DL MODELS USED'
+      image: 'images/icons/web-development.png'
+      count: '16'
+
+    - name: 'SLEEPLESS NIGHTS - 2024'
+      image: 'images/icons/day-and-night.png'
+      count: '24'
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'MY WORKS'
+  portfolio_list:
+    - name: 'Optimizing of the 3D model of VANT using GANs from sustainable materials using AM'
+      image: 'images/portfolio/drone.png'
+      url: 'docs/GANs_VANT.pdf'
+      description: 'Optimization of tridimensional model VANTs from Generative Adversarial Networks as of sustainable materials using 
+      additive manufacturing using Fusion 360 software (license student). Paper submeted in University Meetings 2023 congress by 
+      University Federal of Ceará.'
+
+    - name: AI Medical Plataform
+      image: 'images/portfolio/interface.png'
+      url: #
+      description: AI plataform that helps doctors with daily tasks.
